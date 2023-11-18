@@ -1,0 +1,52 @@
+.reveal h2,
+.reveal p,
+.reveal li {
+    font-family: 'Poppins', serif;
+}
+
+#title-container {
+    background: white;
+    padding: 1rem;
+}
+
+#title-container .headline {
+    font-family: 'Poppins', monospace;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+#title-container .subline {
+    font-family: 'Poppins', monospace;
+    font-size: 30px;
+}
+
+.section-title {
+    font-family: 'Poppins Bold', serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.reveal li {
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    list-style-type: ">";
+    padding-inline-start: 1ch;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+#about-me img {
+    flex: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
