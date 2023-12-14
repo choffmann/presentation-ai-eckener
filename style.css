@@ -23,7 +23,7 @@
 
 .section-title {
     font-family: 'Poppins Bold', serif;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 42px;
 }
 
@@ -40,6 +40,7 @@
 }
 
 .col {
+    align-self: center;
     flex: 1;
 }
 
@@ -50,4 +51,17 @@
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
+}
+
+.campus-overview img {
+    transition: all 0.5s;
+    height: 80%;
+}
+
+.campus-zoom img {
+    overflow: hidden;
+    transition: all 0.5s;
+    object-fit: cover;
+    object-position: top left;
+    transform: scale(2) translate(150px, 50px);
 }
